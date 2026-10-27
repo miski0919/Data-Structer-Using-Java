@@ -1,0 +1,8 @@
+1. What is the purpose of the try and catch blocks?
+They prevent the program from crashing unexpectedly when an error occurs. The ⁠try⁠ block holds risky code, while the ⁠catch⁠ block handles the error gracefully.  
+2. Explain the difference between throw and throws.
+⁠throw⁠ is used to explicitly create and trigger an exception, whereas ⁠throws⁠ is declared in a method signature to indicate that the method can throw an exception.  
+3. What is the purpose of the finally block?
+It executes mandatory code regardless of whether an exception occurred or not (such as closing resources like the scanner).  
+4. Why is a custom exception useful in this application?
+It enables the application to define specific, clear error messages tailored directly to the business rules of the exam registration system
